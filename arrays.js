@@ -27,3 +27,12 @@ function removeElementFromBeginningOfArray(array) {
   newArray= array.slice(1)
   return newArray
 }
+
+function accessElementInArray(array, index) {
+  return array[index]
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop()
+  return array
+}
